@@ -50,7 +50,7 @@ pip install -r requirements.txt
 │   ├── VitaminA_Supplement.py   # Data loading and preprocessing scripts, EDA, and ML Models
 │   ├    
 │   ├            
-│   └── dashboard.py            # Interactive dashboard preparation
+│   └── Dashboard.py            # Interactive dashboard preparation
 ├── requirements.txt            # List of dependencies
 ├── README.md                   # Project documentation
 ```
