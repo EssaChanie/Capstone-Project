@@ -45,14 +45,14 @@ pip install -r requirements.txt
 ## Project Structure
 ```
 ├── data
-│   └── path_to_dhs_data.csv    # Placeholder for the dataset
+│   └── path_to_dhs_data.csv        # Placeholder for the dataset
 ├── src
-│   ├── VitaminA_Supplement.py   # Data loading and preprocessing scripts, EDA, and ML Models
+│   ├── VitaminA_Supplement.ipynb   # Data loading and preprocessing scripts, EDA, and ML Models
 │   ├    
 │   ├            
-│   └── Dashboard.py            # Interactive dashboard preparation
-├── requirements.txt            # List of dependencies
-├── README.md                   # Project documentation
+│   └── Dashboard.ipynb            # Interactive dashboard preparation
+├── requirements.txt               # List of dependencies
+├── README.md                      # Project documentation
 ```
 
 ## Usage
