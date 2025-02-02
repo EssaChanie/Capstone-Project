@@ -20,6 +20,7 @@ Encoded categorical variables (e.g., place of delivery, wealth index, and region
 Data Splitting: 80% training and 20% testing to ensure robust model evaluation
 - **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analyses to uncover patterns and relationships.
 **2. Exploratory Data Analysis (EDA)**
+
 **3. Predictive Modeling**:
 Developed and evaluated multiple machine learning models:
 - Logistic Regression (Baseline Model)
