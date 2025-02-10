@@ -1,23 +1,22 @@
 # Capstone-Project
-# Using Machine Learning to Identify Predictors of Vitamin A Supplementation in Children Under Five in Ethiopia
+# Using Machine Learning to Identify Predictors of Vitamin A Supplementation in Children Under Five in Ethiopia: Insights from Demographic and Health Survey
 
 ## Overview
-This project applies machine learning to analyze the 2019 Ethiopia Demographic and Health Survey (DHS) dataset to identify key predictors of Vitamin A supplementation in children under five. By leveraging advanced predictive models, the study aims to provide data-driven insights for policymakers, healthcare practitioners, and researchers to improve child nutrition outcomes in Ethiopia.
+This project applies machine learning techniques to analyze the 2019 Ethiopia Demographic and Health Survey (DHS) dataset to identify key predictors of Vitamin A supplementation in children under five. Using advanced predictive machine learning models, the study aims to provide data-driven insights for policymakers, healthcare practitioners, and development partners to improve child nutrition outcomes in Ethiopia.
 
 ## Objectives
 1. Identify significant predictors of Vitamin A supplementation in children under five.
 2. Develop and compare the performance of machine learning models in predicting the likelihood of receiving 
-   Vitamin A.
+   Vitamin A supplementation.
 3. Provide insights to support policy decisions and targeted interventions.
 4. Build an interactive dashboard to visualize data and model performance.
 
 ## Features
 **1. Data Preparation**
 - **Data Source**: 2019 Ethiopia DHS dataset
-- **Cleaning**: Handled missing values, removed outliers, and standardized numerical features.
-- **Feature Engineering**:
-Encoded categorical variables (e.g., place of delivery, wealth index, and region).
-Data Splitting: 80% training and 20% testing to ensure robust model evaluation
+- **Cleaning**: Handled missing values
+- **Feature Engineering**: Encoded categorical variables (e.g., place of delivery, wealth index, and region).
+- **Data Splitting**: 80% training and 20% testing to ensure robust model evaluation
 - **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analyses to uncover patterns and relationships.
 **2. Exploratory Data Analysis (EDA)**
 
@@ -34,7 +33,7 @@ Developed and evaluated multiple machine learning models:
 - **Interactive Dashboard**: Visualizations for data insights using Plotly.
 
 ## Data Source
-The dataset is sourced from the 2019 Ethiopia Demographic and Health Survey (DHS). Access it here: [DHS Data](https://dhsprogram.com/methodology/survey/survey-display-551.cfm).
+The dataset is obtained from the 2019 Ethiopia Demographic and Health Survey (DHS). Access it here: [DHS Data](https://dhsprogram.com/methodology/survey/survey-display-551.cfm).
 
 ## Requirements
 Install dependencies using:
@@ -46,7 +45,7 @@ pip install -r requirements.txt
 ```
 ├── data
 │   └── path_to_dhs_data.csv        # Placeholder for the dataset
-├── src
+├── Notebooks
 │   ├── VitaminA_Supplement.ipynb   # Data loading and preprocessing scripts, EDA, and ML Models
 │   ├    
 │   ├            
@@ -56,7 +55,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. **Prepare the Dataset**: Place the DHS dataset in the `data` folder.
+1. **Prepare the Dataset**: Place the DHS dataset in the same directory.
 2. **Run the Project**:
     ```bash
     python VitaminA_Supplement.py
@@ -64,7 +63,7 @@ pip install -r requirements.txt
 3. **Explore the Dashboard**: Visualize insights and model performance in an interactive Plotly dashboard.
 
 ## Key Insights
-- Significant predictors include child age, age of the mother, age of head, birth order and number of ANC visits, 
+- Significant predictors include child age, age of the mother, age of head, birth order, and number of ANC visits, 
 - Best Model Selection: Random Forest
 Justification:
 Highest accuracy (69%), ensuring correct classification in most cases.
