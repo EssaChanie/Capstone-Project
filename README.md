@@ -71,7 +71,7 @@ Balanced tradeoff between precision (62%) and recall (51%).
 Best AUC-ROC score (0.66), indicating good class discrimination.
 
 - Feature importance analysis showed that child age, maternal age, and antenatal care visits were the most influential factors.
-- 
+  
 **Results and Visualizations**
 The interactive dashboard provides:
 1. ✅ Summary statistics and distributions of Vitamin A supplementation.
