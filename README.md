@@ -74,9 +74,9 @@ Best AUC-ROC score (0.66), indicating good class discrimination.
   
 **Results and Visualizations**
 The interactive dashboard provides:
-1. ✅ Summary statistics and distributions of Vitamin A supplementation.
-2. ✅ Correlations between predictors and supplementation status using heatmaps.
-3. ✅ Machine learning model performance metrics (Accuracy, Precision, Recall, AUC-ROC).
-4. ✅ Feature importance rankings to highlight key variables affecting supplementation.
+1. Summary statistics and distributions of Vitamin A supplementation.
+2. Correlations between predictors and supplementation status using heatmaps.
+3. Machine learning model performance metrics (Accuracy, Precision, Recall, AUC-ROC).
+4. Feature importance rankings to highlight key variables affecting supplementation.
 ---
 Developed by Essa Chanie Mussa, PhD
